@@ -1,0 +1,12 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 1rem;
+}
+
+

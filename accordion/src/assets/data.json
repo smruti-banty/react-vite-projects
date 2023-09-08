@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "answer": "The capital of France is Paris."
+  },
+  {
+    "id": 2,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answer": "The play 'Romeo and Juliet' was written by William Shakespeare."
+  },
+  {
+    "id": 3,
+    "question": "What is the chemical symbol for water?",
+    "answer": "The chemical symbol for water is H2O."
+  }
+]

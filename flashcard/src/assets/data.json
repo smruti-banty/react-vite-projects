@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Who developed Java?",
+    "answer": "James Gosling"
+  },
+  {
+    "id": 2,
+    "question": "What is React?",
+    "answer": "A JavaScript library for building user interfaces."
+  },
+  {
+    "id": 3,
+    "question": "What is HTML?",
+    "answer": "Hypertext Markup Language."
+  },
+  {
+    "id": 4,
+    "question": "Who created Python?",
+    "answer": "Guido van Rossum."
+  }
+]

@@ -14,11 +14,11 @@ As per my knowledge it's great tool to create and run any javascript projects.
 NOTE: In some part of the code you can see some bad ui. If you have a better ui please generate a pull request. This will a great help.
 
 ## Project lists
-- hello-react
-- accordion
-- eat-N-split
-- flashcard
-- star-rating
-- step-date
-- tip-calculator
-- todo-app
+- [x] hello-react
+- [x] accordion
+- [x] eat-N-split
+- [x] flashcard
+- [x] star-rating
+- [x] step-date
+- [x] tip-calculator
+- [x] todo-app

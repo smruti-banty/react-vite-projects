@@ -11,7 +11,7 @@ As per my knowledge it's great tool to create and run any javascript projects.
 - Most of the project written in typescript.
 - Takes special care about all the types like react state, props etc.
 
-NOTE: In some part of the code you can see some bad ui. If you have a better ui please generate a pull request. This will a great help.
+NOTE: In some part of the code you can see some bad ui. If you have a better ui please generate a pull request. This will be a great help.
 
 ## Project lists
 - [x] hello-react

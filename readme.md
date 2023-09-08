@@ -2,7 +2,7 @@
 
 Welcome to the react projects world. Here you find small small project related to react which help beginners to grow faster in there react jouney.
 
-AS `CRA` is outdated for production grade application, Thats why i use `VITE` as my project bundler. 
+AS `CRA` is outdated for production grade application, Thats why used, `VITE` as project bundler. 
 
 As per my knowledge it's great tool to create and run any javascript projects.
 ### Few Ideas

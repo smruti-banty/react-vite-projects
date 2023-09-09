@@ -22,3 +22,4 @@ NOTE: In some part of the code you can see some bad ui. If you have a better ui 
 - [x] step-date
 - [x] tip-calculator
 - [x] todo-app
+- [x] text-expand 

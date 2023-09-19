@@ -7,14 +7,14 @@ interface BillProps {
 }
 
 const Bill: React.FC<BillProps> = ({ id, name, changeMessage }) => {
-  const [bill, setBill] = useState(0);
-  const [yourExpense, setYourExpense] = useState(0);
-  const [friendExpense, setFriendExpense] = useState(0);
+  const [bill, setBill] = useState("");
+  const [yourExpense, setYourExpense] = useState("");
+  const [friendExpense, setFriendExpense] = useState("");
   const [billPay, setBillPay] = useState(1);
   function splitExpense(event: React.ChangeEvent<HTMLInputElement>) {
     const expense = Number(event.target.value);
-    setYourExpense(expense);
-    setFriendExpense(bill - expense);
+    setYourExpense(expense.toString());
+    setFriendExpense((Number(bill) - expense).toString());
   }
   function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -34,7 +34,7 @@ const Bill: React.FC<BillProps> = ({ id, name, changeMessage }) => {
             type="number"
             className="w-24 px-1"
             value={bill}
-            onChange={(e) => setBill(Number(e.target.value))}
+            onChange={(e) => setBill(e.target.value)}
           />
         </div>
         <div className="flex gap-3 justify-between place-items-center">
@@ -53,7 +53,7 @@ const Bill: React.FC<BillProps> = ({ id, name, changeMessage }) => {
             className="w-24 px-1"
             disabled
             value={friendExpense}
-            onChange={(e) => setFriendExpense(Number(e.target.value))}
+            onChange={(e) => setFriendExpense(e.target.value)}
           />
         </div>
         <div className="flex gap-3 justify-between place-items-center">

@@ -46,6 +46,7 @@ function App() {
           id={selectedId}
           name={friends.find((f) => f.id === selectedId)?.name || ""}
           changeMessage={changeMessage}
+          key={selectedId}
         />
       )}
     </div>

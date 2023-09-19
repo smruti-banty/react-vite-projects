@@ -7,7 +7,7 @@ interface AddFriendProps {
 
 const AddFriend: React.FC<AddFriendProps> = ({ updateFriendsList }) => {
   const [name, setName] = useState("");
-  const [imageURL, setImageURL] = useState("https://i.pravatar.cc/48");
+  const [imageURL, setImageURL] = useState("https://i.pravatar.cc/48/");
 
   function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -38,7 +38,7 @@ const AddFriend: React.FC<AddFriendProps> = ({ updateFriendsList }) => {
           <input
             type="url"
             className="p-1 bg-slate-800"
-            value={imageURL}
+            value={imageURL + name.length}
             onChange={(e) => setImageURL(e.target.value)}
           />
         </div>
